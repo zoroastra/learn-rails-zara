@@ -15,6 +15,8 @@ gem 'sqlite3', group: [:development, :test]
 gem 'pg', group: :production
 # rails factor
 gem 'rails_12factor', group: :production
+# add twitter bootstrap
+gem 'bootstrap-sass'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
