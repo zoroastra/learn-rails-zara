@@ -15,7 +15,9 @@ gem 'sqlite3', group: [:development, :test]
 gem 'pg', group: :production
 # rails factor
 gem 'rails_12factor', group: :production
-# add twitter bootstrap
+# Stripe for talking payments
+gem 'stripe', :git =>'https://github.com/stripe/stripe-ruby' 
+# Add twitter bootstrap
 gem 'bootstrap-sass'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
